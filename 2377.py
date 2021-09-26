@@ -1,0 +1,5 @@
+l, d = map(int, input().split())
+k, p = map(int, input().split())
+total_tollbooths = int(l/d)
+total_cost = (l * k) + (total_tollbooths * p)
+print(total_cost)
